@@ -5,10 +5,13 @@
   ## Features ##
   Using the website ,you be able to get information about statistics in the NBA 
   
-  -get state about team
-  -get state about player 
-  -get state about state 
-  -get state about games
+🔹get state about team
+
+🔹get state about player 
+  
+🔹get state about state 
+
+🔹get state about games
  
  
  
