@@ -52,6 +52,9 @@ docker compose up
 ```bash
 http://localhost:8000/docs
 ```  
+Now you can do it by yourself 
+
+![image](https://user-images.githubusercontent.com/79109460/208450589-8d37650a-fb5d-4cee-aa45-019727cd2a71.png)
 
 
 
