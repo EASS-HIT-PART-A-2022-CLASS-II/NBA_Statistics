@@ -10,6 +10,16 @@ services:
     networks:
       - nba-app-network
 
+  frontend:
+    build:
+      context: ./src
+      dockerfile: frontend.Dockerfile
+    ports:
+      - "8080:8080"
+    container_name: nba-frontend
+    networks:
+      - nba-app-network
+
 networks:
   nba-app-network:
     driver: bridge
