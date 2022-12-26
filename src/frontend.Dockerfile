@@ -1,4 +1,5 @@
 FROM python:3.8
+FROM streamlit:1.16
 
 WORKDIR /app/src
 WORKDIR /app
