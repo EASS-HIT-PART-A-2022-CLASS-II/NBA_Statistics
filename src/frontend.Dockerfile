@@ -9,4 +9,4 @@ COPY ./requierments.txt /app
 RUN pip install -r requierments.txt
 EXPOSE  8080
 
-CMD ["streamlit", "run", "frontend.py"]
+CMD streamlit run Frontend.py
