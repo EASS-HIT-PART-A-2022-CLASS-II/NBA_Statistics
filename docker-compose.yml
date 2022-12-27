@@ -5,7 +5,7 @@ services:
       context: ./src
       dockerfile: Dockerfile
     ports:
-      - "2375:2375"
+      - "8000:8000"
     container_name: nba
     networks:
       - nba-app-network
