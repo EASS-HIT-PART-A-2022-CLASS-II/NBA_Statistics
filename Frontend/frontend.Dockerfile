@@ -5,7 +5,7 @@ WORKDIR /app/Frontend
 
 COPY . /app/Frontend
 
-RUN pip install -r Frontend/requierments.txt
+RUN pip install -r requierments.txt
 EXPOSE  8080
 
 CMD streamlit run Frontend.py
