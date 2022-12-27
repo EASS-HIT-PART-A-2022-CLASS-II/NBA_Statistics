@@ -8,15 +8,15 @@ def get_player(first_name):
   return response.json()
 
 def get_team(name):
-  response = requests.get(f"http://localhost:8000/get_team/{name}")
+  response = requests.get(f"http://backend:8000/get_team/{name}")
   return response.json()
 
 def get_team_by_city(city):
-  response = requests.get(f"http://localhost:8000/get_team_by_city/{city}")
+  response = requests.get(f"http://backend:8000/get_team_by_city/{city}")
   return response.json()
 
 def get_all_teams():
-  response = requests.get("http://localhost:8000/get_all_teams")
+  response = requests.get("http://backend:8000/get_all_teams")
   return response.json()
 
   
