@@ -4,7 +4,7 @@ import json
 import pandas as pd 
 
 def get_player(first_name):
-  response = requests.get(f"http://localhost:8000/get_player/{first_name}")
+  response = requests.get(f"http://127.0.0.1:8000/get_player/{first_name}")
   return response.json()
 
 def get_team(name):

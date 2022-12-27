@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
-    container_name: nba
+    container_name: nba-backend
     networks:
       - nba-app-network
 
