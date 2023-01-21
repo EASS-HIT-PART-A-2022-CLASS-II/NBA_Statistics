@@ -8,9 +8,9 @@
 
 🏀 get state about player 
   
-🏀 get state about state 
+🏀 get state about team by city 
 
-🏀 get state about games
+🏀 get status  about all teams
  
  
  
@@ -22,6 +22,9 @@
 🏀 Git
  
 🏀 python
+
+🏀 Streamlit
+
 
 
 How we do it ?
@@ -52,9 +55,16 @@ docker compose up
 ```bash
 http://localhost:8000/docs
 ```  
-Now you can do it by yourself 
+Now you can do it by yourself from Backend 
 
 ![image](https://user-images.githubusercontent.com/79109460/208450589-8d37650a-fb5d-4cee-aa45-019727cd2a71.png)
 
+
+🏀 Great! the fronted is running! now open your browser and type:
+```bash
+http://localhost:8501
+```  
+Now you can do it by yourself from Frontend
+![image](https://user-images.githubusercontent.com/79109460/213871477-51378786-bd9d-4a3d-a021-f76fece3eca9.png)
 
 
