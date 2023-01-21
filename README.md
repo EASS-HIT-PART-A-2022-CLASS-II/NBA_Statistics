@@ -11,6 +11,8 @@
 🏀 get state about team by city 
 
 🏀 get status  about all teams
+
+* When you use one of the button ,you have to right  with Camel case 
  
  
  
