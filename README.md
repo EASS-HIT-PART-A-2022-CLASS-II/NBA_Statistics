@@ -34,7 +34,7 @@ How we do it ?
 
  
  ``` bash
-  https://github.com/EASS-HIT-PART-A-2022-CLASS-II/ron_pinto.git
+  https://github.com/EASS-HIT-PART-A-2022-CLASS-II/NBA_Statistics.git
 
  ```
  
