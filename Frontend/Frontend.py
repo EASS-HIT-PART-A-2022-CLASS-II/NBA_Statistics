@@ -45,7 +45,9 @@ def main():
       st.write(f"Conference: {team['conference']}")
       st.write(f"Full name: {team['full_name']}")
       result=collection.find({"image_name":team['name']})
-      png=result["image_url"]
+      png=""
+      for res in result:
+        png=res["image_url"]
       st.image(png,width=200)
 
   if st.sidebar.button("Get team by city"):
