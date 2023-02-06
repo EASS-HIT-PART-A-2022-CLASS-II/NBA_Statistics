@@ -2,6 +2,10 @@ import streamlit as st
 import requests
 import json
 import pandas as pd 
+import pymongo
+client=pymongo.MongoClient("mongodb+srv://ron_pinto:<Aa123456>@icons.uvffn44.mongodb.net/icons")
+db=client["icons_database"]
+collection=db["icons_collection"]
 
 def get_player(first_name):
   response = requests.get(f"http://backend:8000/get_player/{first_name}")
@@ -40,6 +44,9 @@ def main():
       st.write(f"City: {team['city']}")
       st.write(f"Conference: {team['conference']}")
       st.write(f"Full name: {team['full_name']}")
+      result=collection.find({"image_name":team['name']})
+      png=result["image_url"]
+      st.image(png,width=200)
 
   if st.sidebar.button("Get team by city"):
     team = get_team_by_city(search_term)
