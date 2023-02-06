@@ -3,7 +3,7 @@ import requests
 import json
 import pandas as pd 
 import pymongo
-client=pymongo.MongoClient("mongodb+srv://ron_pinto:<Aa123456>@icons.uvffn44.mongodb.net/icons")
+client=pymongo.MongoClient("mongodb+srv://ron_pinto:Aa123456@icons.uvffn44.mongodb.net/icons")
 db=client["icons_database"]
 collection=db["icons_collection"]
 
