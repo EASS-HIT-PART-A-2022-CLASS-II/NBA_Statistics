@@ -9,3 +9,4 @@ RUN pip install -r requierments.txt
 RUN pip install pymongo
 EXPOSE  27017
 
+CMD python icons.py
