@@ -18,4 +18,9 @@ services:
     container_name: nba-frontend
  
 
+  db:
+  image: mongo
+  ports:
+  - "27017:27017"
+  container_name: nba-mongodb
 
