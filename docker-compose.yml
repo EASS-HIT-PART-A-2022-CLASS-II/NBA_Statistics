@@ -7,7 +7,6 @@ services:
     ports:
       - "8000:8000"
     container_name: nba
-   
 
   frontend:
     build:
@@ -16,11 +15,14 @@ services:
     ports:
       - "8501:8501"
     container_name: nba-frontend
- 
 
   db:
-  image: mongo
-  ports:
-  - "27017:27017"
-  container_name: nba-mongodb
-
+    image: mongo:3.6.8
+    ports:
+      - "27017:27017"
+    container_name: nba-mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ron_pinto
+      MONGO_INITDB_ROOT_PASSWORD: Aa123456
+      MONGO_INITDB_DATABASE: icons
+    command: --bind_ip_all
