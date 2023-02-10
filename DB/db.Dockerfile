@@ -5,8 +5,8 @@ WORKDIR /app/DB
 
 COPY . /app/DB
 
-RUN pip install -r requierments.txt
-RUN pip install pymongo
-EXPOSE  27017
 
-CMD python icons.py
+RUN pip install pymongo
+
+
+CMD ["python","icons.py"]
