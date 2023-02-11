@@ -19,15 +19,11 @@
  Prerequisites :
 
  
-🏀 Docker
+🏀 Docker desktop
  
 🏀 Git
  
 🏀 python
-
-🏀 Streamlit
-
-🏀 MongoDB
 
 
 
