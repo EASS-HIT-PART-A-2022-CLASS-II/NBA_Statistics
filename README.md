@@ -4,7 +4,7 @@
   ## Features ##
   Using the website ,you be able to get information about statistics in the NBA 
   
-🏀 get state about team
+🏀 get state about team and icons
 
 🏀 get state about player 
   
@@ -44,7 +44,7 @@ How we do it ?
 🏀 Then nevigate to flags folder
 
 ```bash
-cd flags
+cd NBA_Statistics
 ```
 
 🏀 To start, enter the following command:
@@ -68,5 +68,11 @@ http://localhost:8501
 ```  
 Now you can do it by yourself from Frontend
 ![image](https://user-images.githubusercontent.com/79109460/213871477-51378786-bd9d-4a3d-a021-f76fece3eca9.png)
+
+
+🏀 Great! You using MongoDB to find the icons
+
+![image](https://user-images.githubusercontent.com/79109460/218262759-cc08d979-f272-472a-a6c9-884fca490e21.png)
+
 
 
