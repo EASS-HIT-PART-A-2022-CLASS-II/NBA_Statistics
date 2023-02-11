@@ -27,6 +27,8 @@
 
 🏀 Streamlit
 
+🏀 MongoDB
+
 
 
 How we do it ?
